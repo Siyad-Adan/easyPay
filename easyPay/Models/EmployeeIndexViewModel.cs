@@ -15,6 +15,5 @@ namespace easyPay.Models
         public DateTime DateJoined { get; set; }
         public string Designation { get; set; }
         public string City { get; set; }
-
     }
 }

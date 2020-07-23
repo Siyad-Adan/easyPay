@@ -9,6 +9,7 @@ namespace easyPay.Entity
     {
 
         public int Id { get; set; }
+        public string Phone { get; set; }
         [Required]
         public string EmployeeNo { get; set; }
         [Required, MaxLength (50)]
