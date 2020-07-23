@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XRZOlve7Qe8rswF7iEVhqyFtjW/EoUFqWZ7fzzVGhyl1hVIapPaxwi8j2nRvBiUAETWQHJh6EzVjGyPPBwJwew==",
+  "dgSpecHash": "Dc+p+i0jYwB/bLexeKn0dFyqWrPv4zBggMVqa54KfAX/sWhk+e+3dLguUel92ksOoJ9ZuQ9NDOglwKjqmYvOrQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\easyPay.Services\\easyPay.Services.csproj",
+  "projectFilePath": "C:\\Projects\\easyPayApp\\easyPay.Services\\easyPay.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jvjug17yG9itKZ1O9yUfTonGWmLbC1csT9kggmseQK3ZLctj7E7kZL35AxxJB5wxHL35Jj1j4hiOsXdfXDUA4w==",
+  "dgSpecHash": "A0Omu1TvhxlIQjQX25wRdEpcBsgojShS9qxKGGF2uyR3Au7UvEHkcWJ+yfDDIp6L3pQrcnzgU3zoe+M9stD+Zg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\easyPay\\easyPay.csproj",
+  "projectFilePath": "C:\\Projects\\easyPayApp\\easyPay\\easyPay.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

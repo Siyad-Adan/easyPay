@@ -4409,11 +4409,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\easyPay.Services\\easyPay.Services.csproj",
+      "projectUniqueName": "C:\\Projects\\easyPayApp\\easyPay.Services\\easyPay.Services.csproj",
       "projectName": "easyPay.Services",
-      "projectPath": "C:\\Projects\\easyPay.Services\\easyPay.Services.csproj",
+      "projectPath": "C:\\Projects\\easyPayApp\\easyPay.Services\\easyPay.Services.csproj",
       "packagesPath": "C:\\Users\\siyad\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\easyPay.Services\\obj\\",
+      "outputPath": "C:\\Projects\\easyPayApp\\easyPay.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4432,11 +4432,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Projects\\easyPay.Entity\\easyPay.Entity.csproj": {
-              "projectPath": "C:\\Projects\\easyPay.Entity\\easyPay.Entity.csproj"
+            "C:\\Projects\\easyPayApp\\easyPay.Entity\\easyPay.Entity.csproj": {
+              "projectPath": "C:\\Projects\\easyPayApp\\easyPay.Entity\\easyPay.Entity.csproj"
             },
-            "C:\\Projects\\easyPay.Persistence\\easyPay.Persistence.csproj": {
-              "projectPath": "C:\\Projects\\easyPay.Persistence\\easyPay.Persistence.csproj"
+            "C:\\Projects\\easyPayApp\\easyPay.Persistence\\easyPay.Persistence.csproj": {
+              "projectPath": "C:\\Projects\\easyPayApp\\easyPay.Persistence\\easyPay.Persistence.csproj"
             }
           }
         }

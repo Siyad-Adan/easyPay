@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HpxmEfVVqmwq+rbyLk5TSiLa/JgmqvIolwbYoh3tEQUZoYdZRxfIHU6ghbxT1Gukq5GdOeRvW5/YMfycKmUDow==",
+  "dgSpecHash": "gYZ44xj85f4WFmI/Z1MSqDf/yNOk3k7oibloUzztuUYxHigq7DTw3Pz4cq73jooCc4Oreduy3NLSWQ9VqQ/vHA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\easyPay.Entity\\easyPay.Entity.csproj",
+  "projectFilePath": "C:\\Projects\\easyPayApp\\easyPay.Entity\\easyPay.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

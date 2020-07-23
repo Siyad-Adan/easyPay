@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o6UyL7z47s7yK9XcCZFqmqhKkSeC7VF3F9/o3MuUBoTBtzIDw2ZQBdEfeUkDWH977rMkW/Uw46SjvKcN4nxZ0A==",
+  "dgSpecHash": "pYLMiGnIGtL9D2Q09s9iArReDv04lewlLVaaNFSWMC0S5lvtdci6jPin74ZpcyMNp0ecL2eTkRkDjZCYJUUtpQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\easyPay.Persistence\\easyPay.Persistence.csproj",
+  "projectFilePath": "C:\\Projects\\easyPayApp\\easyPay.Persistence\\easyPay.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
