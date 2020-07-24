@@ -14,6 +14,7 @@ using easyPay.Persistence;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using easyPay.Services;
+using easyPay.Services.Implementation;
 
 namespace easyPay
 {

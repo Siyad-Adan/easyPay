@@ -86,3 +86,4 @@ C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.csproj.CopyComple
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.dll
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.pdb
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.genruntimeconfig.cache
+C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Index.cshtml.g.cs
