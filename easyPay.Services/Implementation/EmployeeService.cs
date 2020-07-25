@@ -1,6 +1,7 @@
 ﻿using easyPay.Entity;
 using easyPay.Persistence;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +32,7 @@ namespace easyPay.Services.Implementation
         }
 
         public IEnumerable<Employee> GetAll() => 
-            _context.Employees;
+            _context.Employees.AsNoTracking().OrderBy(e=>e.FullName); //AsNoTracking increase the speed of loading times to better improve pagination
 
         public async Task UpdateAsync(Employee employee)
         {

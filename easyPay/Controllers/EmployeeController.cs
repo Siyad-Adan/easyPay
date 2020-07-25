@@ -22,7 +22,7 @@ namespace easyPay.Controllers
 
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int? pageNumber)
         {
             var employees = _employeeService.GetAll().Select(employee => new EmployeeIndexViewModel
             {
@@ -35,8 +35,9 @@ namespace easyPay.Controllers
                 City = employee.City,
                 DateJoined = employee.DateJoined
             }).ToList();
+            int pageSize = 4;
 
-            return View(employees);
+            return View(EmployeeListPagination<EmployeeIndexViewModel>.Create(employees, pageNumber ?? 1, pageSize));
         }
 
         [HttpGet]//request data from a specified resource, use this to render view model to the view 
