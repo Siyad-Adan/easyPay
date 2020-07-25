@@ -1,6 +1,7 @@
 ﻿using easyPay.Entity;
 using easyPay.Models;
 using easyPay.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RotativaCore;
 using System;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace easyPay.Controllers
 {
+    [Authorize(Roles = "Admin, Manager")]
     public class PayController : Controller
     {
         private readonly IPayComputationService _payComputationService;
@@ -50,6 +52,7 @@ namespace easyPay.Controllers
             return View(payRecords);
         }
 
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewBag.employees = _employeeService.GetAllEmployeesForPayroll();
@@ -60,6 +63,7 @@ namespace easyPay.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(PaymentRecordCreateViewModel model)
         {
             if (ModelState.IsValid)
@@ -134,6 +138,7 @@ namespace easyPay.Controllers
             return View(model);
         }
 
+        [AllowAnonymous]
         public IActionResult Payslip(int id)
         {
             var paymentRecord = _payComputationService.GetById(id);

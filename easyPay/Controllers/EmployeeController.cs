@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 using easyPay.Entity;
 using easyPay.Models;
 using easyPay.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting.Internal;
 using Microsoft.AspNetCore.Mvc;
 
 namespace easyPay.Controllers
-{
+{   
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly IEmployeeService _employeeService;
@@ -41,6 +43,7 @@ namespace easyPay.Controllers
         }
 
         [HttpGet]//request data from a specified resource, use this to render view model to the view 
+        [Authorize(Roles = "Admin, Manager")]
         public IActionResult Create()
         {
             var model = new EmployeeCreateViewModel();
@@ -48,6 +51,7 @@ namespace easyPay.Controllers
         }
         [HttpPost]// used to send data to the server to create or update a resource , passing the view model here 
         [ValidateAntiForgeryToken]//Prevents cross-site Request Forgery Attacks
+        [Authorize(Roles = "Admin, Manager")]
         public async Task<IActionResult> Create(EmployeeCreateViewModel model)
         {
             if (ModelState.IsValid)
@@ -92,6 +96,7 @@ namespace easyPay.Controllers
             return View();
         }
         [HttpGet]
+        [Authorize(Roles = "Admin, Manager")]
         public IActionResult Edit(int id)
         {
             var employee = _employeeService.GetById(id);
@@ -126,6 +131,7 @@ namespace easyPay.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin, Manager")]
         public async Task<IActionResult> Edit(EmployeeEditViewModel model)
         {
             if (ModelState.IsValid)
@@ -199,6 +205,7 @@ namespace easyPay.Controllers
             return View(model);
         }
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
             var employee = _employeeService.GetById(id);
@@ -216,6 +223,7 @@ namespace easyPay.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin, Manager")]
         public async Task<IActionResult> Delete(EmployeeDeleteViewModel model)
         {
             await _employeeService.Delete(model.Id);
