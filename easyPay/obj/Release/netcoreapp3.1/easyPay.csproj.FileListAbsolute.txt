@@ -157,8 +157,8 @@ C:\Projects\easyPayApp\easyPay\obj\Release\netcoreapp3.1\easyPay.genruntimeconfi
 C:\Projects\easyPayApp\easyPay\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Projects\easyPayApp\easyPay\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Projects\easyPayApp\easyPay\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Projects\easyPayApp\easyPay\bin\Release\netcoreapp3.1\Properties\serviceDependencies.easyPay20200725170108 - Web Deploy.json
 C:\Projects\easyPayApp\easyPay\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Projects\easyPayApp\easyPay\obj\Release\netcoreapp3.1\easyPay.csproj.CoreCompileInputs.cache
 C:\Projects\easyPayApp\easyPay\obj\Release\netcoreapp3.1\easyPay.MvcApplicationPartsAssemblyInfo.cs
 C:\Projects\easyPayApp\easyPay\obj\Release\netcoreapp3.1\easyPay.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\easyPayApp\easyPay\bin\Release\netcoreapp3.1\Properties\serviceDependencies.easyPayCompany - Web Deploy.json
