@@ -1,0 +1,15 @@
+C:\Projects\easyPayApp\easyPay.Persistence\bin\Release\netcoreapp3.1\easyPay.Persistence.deps.json
+C:\Projects\easyPayApp\easyPay.Persistence\bin\Release\netcoreapp3.1\easyPay.Persistence.runtimeconfig.json
+C:\Projects\easyPayApp\easyPay.Persistence\bin\Release\netcoreapp3.1\easyPay.Persistence.runtimeconfig.dev.json
+C:\Projects\easyPayApp\easyPay.Persistence\bin\Release\netcoreapp3.1\easyPay.Persistence.dll
+C:\Projects\easyPayApp\easyPay.Persistence\bin\Release\netcoreapp3.1\easyPay.Persistence.pdb
+C:\Projects\easyPayApp\easyPay.Persistence\bin\Release\netcoreapp3.1\easyPay.Entity.dll
+C:\Projects\easyPayApp\easyPay.Persistence\bin\Release\netcoreapp3.1\easyPay.Entity.pdb
+C:\Projects\easyPayApp\easyPay.Persistence\obj\Release\netcoreapp3.1\easyPay.Persistence.csprojAssemblyReference.cache
+C:\Projects\easyPayApp\easyPay.Persistence\obj\Release\netcoreapp3.1\easyPay.Persistence.AssemblyInfoInputs.cache
+C:\Projects\easyPayApp\easyPay.Persistence\obj\Release\netcoreapp3.1\easyPay.Persistence.AssemblyInfo.cs
+C:\Projects\easyPayApp\easyPay.Persistence\obj\Release\netcoreapp3.1\easyPay.Persistence.csproj.CoreCompileInputs.cache
+C:\Projects\easyPayApp\easyPay.Persistence\obj\Release\netcoreapp3.1\easyPay.Persistence.csproj.CopyComplete
+C:\Projects\easyPayApp\easyPay.Persistence\obj\Release\netcoreapp3.1\easyPay.Persistence.dll
+C:\Projects\easyPayApp\easyPay.Persistence\obj\Release\netcoreapp3.1\easyPay.Persistence.pdb
+C:\Projects\easyPayApp\easyPay.Persistence\obj\Release\netcoreapp3.1\easyPay.Persistence.genruntimeconfig.cache

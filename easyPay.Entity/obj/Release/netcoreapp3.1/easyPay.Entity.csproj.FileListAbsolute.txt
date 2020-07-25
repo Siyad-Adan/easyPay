@@ -1,0 +1,8 @@
+C:\Projects\easyPayApp\easyPay.Entity\bin\Release\netcoreapp3.1\easyPay.Entity.deps.json
+C:\Projects\easyPayApp\easyPay.Entity\bin\Release\netcoreapp3.1\easyPay.Entity.dll
+C:\Projects\easyPayApp\easyPay.Entity\bin\Release\netcoreapp3.1\easyPay.Entity.pdb
+C:\Projects\easyPayApp\easyPay.Entity\obj\Release\netcoreapp3.1\easyPay.Entity.AssemblyInfoInputs.cache
+C:\Projects\easyPayApp\easyPay.Entity\obj\Release\netcoreapp3.1\easyPay.Entity.AssemblyInfo.cs
+C:\Projects\easyPayApp\easyPay.Entity\obj\Release\netcoreapp3.1\easyPay.Entity.csproj.CoreCompileInputs.cache
+C:\Projects\easyPayApp\easyPay.Entity\obj\Release\netcoreapp3.1\easyPay.Entity.dll
+C:\Projects\easyPayApp\easyPay.Entity\obj\Release\netcoreapp3.1\easyPay.Entity.pdb

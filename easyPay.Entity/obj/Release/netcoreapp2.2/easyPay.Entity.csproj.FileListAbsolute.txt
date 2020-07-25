@@ -6,4 +6,3 @@ C:\Projects\easyPayApp\easyPay.Entity\obj\Release\netcoreapp2.2\easyPay.Entity.A
 C:\Projects\easyPayApp\easyPay.Entity\obj\Release\netcoreapp2.2\easyPay.Entity.csproj.CoreCompileInputs.cache
 C:\Projects\easyPayApp\easyPay.Entity\obj\Release\netcoreapp2.2\easyPay.Entity.dll
 C:\Projects\easyPayApp\easyPay.Entity\obj\Release\netcoreapp2.2\easyPay.Entity.pdb
-C:\Projects\easyPayApp\easyPay.Entity\obj\Release\netcoreapp2.2\easyPay.Entity.csprojAssemblyReference.cache
