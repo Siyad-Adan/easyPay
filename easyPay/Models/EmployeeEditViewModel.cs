@@ -17,16 +17,18 @@ namespace easyPay.Models
         [RegularExpression(@"^\d{3}[-]?\d{3}[-]?\d{4}$")]
         public string Phone { get; set; }
         [Required(ErrorMessage = "First Name is required"), StringLength(50, MinimumLength = 2),
-            RegularExpression(@"^[A-Z][a-ZA-Z""'\s-]$"), Display(Name = "First Name")]
+            RegularExpression(@"^[A-Z][a-zA-Z""'\s-]*$"), Display(Name = "First Name")]
         public string FirstName { get; set; }
         [StringLength(50), Display(Name = "Middle Name")]
         public string MiddleName { get; set; }
         [Required(ErrorMessage = "First Name is required"), StringLength(50, MinimumLength = 2),
-            RegularExpression(@"^[A-Z][a-ZA-Z""'\s-]$"), Display(Name = "First Name")]
+            RegularExpression(@"^[A-Z][a-zA-Z""'\s-]*$"), Display(Name = "First Name")]
         public string LastName { get; set; }
         public string Gender { get; set; }
         [Display(Name = "Photo")]
         public IFormFile ImageUrl { get; set; }
+        [DataType(DataType.Date), Display(Name = "Date Joined")]
+        public DateTime DateJoined { get; set; }
         [DataType(DataType.Date), Display(Name = "Date Of Birth")]
         public DateTime DOB { get; set; }
         [Required(ErrorMessage = "Job Role is required"), StringLength(100)]

@@ -18,16 +18,16 @@ namespace easyPay.Models
         [RegularExpression(@"^\d{3}[-]?\d{3}[-]?\d{4}$")]
         public string Phone { get; set; }
         [Required(ErrorMessage = "First Name is required"), StringLength(50, MinimumLength = 2),
-            RegularExpression(@"^[A-Z][a-ZA-Z""'\s-]$"), Display(Name = "First Name")]
+            RegularExpression(@"^[A-Z][a-zA-Z""'\s-]*$"), Display(Name = "First Name")]
         public string FirstName { get; set; }
         [StringLength(50), Display(Name = "Middle Name")]
         public string MiddleName { get; set; }
-        [Required(ErrorMessage = "First Name is required"), StringLength(50, MinimumLength = 2),
-            RegularExpression(@"^[A-Z][a-ZA-Z""'\s-]$"), Display(Name = "First Name")]
+        [Required(ErrorMessage = "Last Name is required"), StringLength(50, MinimumLength = 2),
+            RegularExpression(@"^[A-Z][a-zA-Z""'\s-]*$"), Display(Name = "Last Name")]
         public string LastName { get; set; }
         public string FullName { 
             get {
-                return FirstName + (string.IsNullOrEmpty(MiddleName) ? "" : (" " + (char?)MiddleName[0] + ". ").ToUpper()) + LastName;
+                return FirstName + (string.IsNullOrEmpty(MiddleName) ? "" : (" " + (char?)MiddleName[0] + ". ").ToUpper()) + " " +  LastName;
             } }
         public string Gender { get; set; }
         [Display(Name = "Photo")]

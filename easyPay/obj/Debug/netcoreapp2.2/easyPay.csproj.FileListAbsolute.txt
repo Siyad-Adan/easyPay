@@ -70,6 +70,10 @@ C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.TagHelpers.input.
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.TagHelpers.output.cache
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.RazorCoreGenerate.cache
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Create.cshtml.g.cs
+C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Detail.cshtml.g.cs
+C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Edit.cshtml.g.cs
+C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Index.cshtml.g.cs
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
@@ -86,4 +90,4 @@ C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.csproj.CopyComple
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.dll
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.pdb
 C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\easyPay.genruntimeconfig.cache
-C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Index.cshtml.g.cs
+C:\Projects\easyPayApp\easyPay\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Delete.cshtml.g.cs

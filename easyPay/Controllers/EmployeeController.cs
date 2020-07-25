@@ -117,7 +117,8 @@ namespace easyPay.Controllers
                 City = employee.City,
                 Phone = employee.Phone,
                 Postcode = employee.Postcode,
-                Designation = employee.Designation
+                Designation = employee.Designation,
+                DateJoined = employee.DateJoined
             };
             return View(model);
         }
@@ -191,8 +192,8 @@ namespace easyPay.Controllers
                 City = employee.City,
                 Phone = employee.Phone,
                 Postcode = employee.Postcode,
+                ImageUrl = employee.ImageUrl,
                 Designation = employee.Designation
-
             };
             return View(model);
         }
@@ -207,7 +208,8 @@ namespace easyPay.Controllers
             var model = new EmployeeDeleteViewModel
             {
                 Id = employee.Id,
-                FullName = employee.FullName
+                FullName = employee.FullName,
+                ImageUrl = employee.ImageUrl
             };
             return View(model);
         }
