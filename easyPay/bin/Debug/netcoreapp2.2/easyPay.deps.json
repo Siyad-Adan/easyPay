@@ -172,6 +172,7 @@
       },
       "easyPay.Services/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "easyPay.Entity": "1.0.0",
           "easyPay.Persistence": "1.0.0"
         },

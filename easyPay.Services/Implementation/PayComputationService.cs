@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace easyPay.Services.Implementation
 {
-    class PayComputationService : IPayComputationService
+    public class PayComputationService : IPayComputationService
     {
         private readonly ApplicationDbContext _context;
         private decimal contractualEarnings;
@@ -71,8 +71,8 @@ namespace easyPay.Services.Implementation
         public decimal OvertimeRate(decimal hourlyRate) =>
             hourlyRate * 1.5m;
 
-        public decimal TotalDeduction(decimal tax, decimal federalTax, decimal provincialTax, decimal ccpEiPremiums, decimal studentLoanRepayment, decimal unionFees) =>
-            tax + federalTax + provincialTax + ccpEiPremiums + studentLoanRepayment + unionFees;
+        public decimal TotalDeduction(decimal tax, decimal federalTax, decimal provincialTax, decimal studentLoanRepayment, decimal unionFees) =>
+            tax + federalTax + provincialTax + studentLoanRepayment + unionFees;
 
         public decimal TotalEarnings(decimal overtimeEarnings, decimal contractualEarnings) =>
             overtimeEarnings + contractualEarnings;
