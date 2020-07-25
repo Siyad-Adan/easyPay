@@ -1,5 +1,6 @@
 ﻿using easyPay.Entity;
 using easyPay.Persistence;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +63,15 @@ namespace easyPay.Services.Implementation
             var fee = employee.UnionMember == UnionMember.Yes ? 10m : 0m;
 
             return fee;
+        }
+
+        public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
+        {
+            return GetAll().Select(e => new SelectListItem
+            {
+                Text = e.FullName,
+                Value = e.Id.ToString()
+            }) ;
         }
     }
 }

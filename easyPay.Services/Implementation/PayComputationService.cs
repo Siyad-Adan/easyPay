@@ -52,6 +52,9 @@ namespace easyPay.Services.Implementation
         public PaymentRecord GetById(int id) =>
             _context.PaymentRecords.Where(p => p.Id == id).FirstOrDefault();
 
+        public TaxYear GetTaxYearById(int id) =>
+            _context.TaxYears.Where(p => p.Id == id).FirstOrDefault();
+
         public decimal NetPay(decimal totalEarnings, decimal totalDeductions) =>
             totalEarnings - totalDeductions;
 
@@ -71,8 +74,8 @@ namespace easyPay.Services.Implementation
         public decimal OvertimeRate(decimal hourlyRate) =>
             hourlyRate * 1.5m;
 
-        public decimal TotalDeduction(decimal tax, decimal federalTax, decimal provincialTax, decimal studentLoanRepayment, decimal unionFees) =>
-            tax + federalTax + provincialTax + studentLoanRepayment + unionFees;
+        public decimal TotalDeduction(decimal tax , decimal studentLoanRepayment, decimal unionFees) =>
+            tax + studentLoanRepayment + unionFees;
 
         public decimal TotalEarnings(decimal overtimeEarnings, decimal contractualEarnings) =>
             overtimeEarnings + contractualEarnings;

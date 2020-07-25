@@ -28,6 +28,6 @@ namespace easyPay.Models
         public string Address { get; set; }
         public string City { get; set; }
         public string Postcode { get; set; }
-        public IEnumerable<PaymentRecord> PaymentRecords { get; set; }
+        public IEnumerable<easyPay.Entity.PaymentRecord> PaymentRecords { get; set; }
     }
 }
