@@ -11,6 +11,7 @@ namespace easyPay.Services.Implementation
     public class EmployeeService : IEmployeeService
     {
         private readonly ApplicationDbContext _context;
+        private decimal studentLoanAmount;
 
         public EmployeeService(ApplicationDbContext context)
         {
@@ -50,7 +51,11 @@ namespace easyPay.Services.Implementation
 
         public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            if (employee.StudentLoan == StudentLoan.Yes)
+                studentLoanAmount = totalAmount * 0.01m;
+
+            return studentLoanAmount;
         }
 
         public decimal UnionFees(int id)
