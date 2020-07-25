@@ -1,17 +1,3 @@
-C:\Projects\easyPay.Services\bin\Debug\netcoreapp2.2\easyPay.Services.deps.json
-C:\Projects\easyPay.Services\bin\Debug\netcoreapp2.2\easyPay.Services.dll
-C:\Projects\easyPay.Services\bin\Debug\netcoreapp2.2\easyPay.Services.pdb
-C:\Projects\easyPay.Services\bin\Debug\netcoreapp2.2\easyPay.Entity.dll
-C:\Projects\easyPay.Services\bin\Debug\netcoreapp2.2\easyPay.Persistence.dll
-C:\Projects\easyPay.Services\bin\Debug\netcoreapp2.2\easyPay.Entity.pdb
-C:\Projects\easyPay.Services\bin\Debug\netcoreapp2.2\easyPay.Persistence.pdb
-C:\Projects\easyPay.Services\obj\Debug\netcoreapp2.2\easyPay.Services.csprojAssemblyReference.cache
-C:\Projects\easyPay.Services\obj\Debug\netcoreapp2.2\easyPay.Services.AssemblyInfoInputs.cache
-C:\Projects\easyPay.Services\obj\Debug\netcoreapp2.2\easyPay.Services.AssemblyInfo.cs
-C:\Projects\easyPay.Services\obj\Debug\netcoreapp2.2\easyPay.Services.csproj.CoreCompileInputs.cache
-C:\Projects\easyPay.Services\obj\Debug\netcoreapp2.2\easyPay.Services.csproj.CopyComplete
-C:\Projects\easyPay.Services\obj\Debug\netcoreapp2.2\easyPay.Services.dll
-C:\Projects\easyPay.Services\obj\Debug\netcoreapp2.2\easyPay.Services.pdb
 C:\Projects\easyPayApp\easyPay.Services\bin\Debug\netcoreapp2.2\easyPay.Services.deps.json
 C:\Projects\easyPayApp\easyPay.Services\bin\Debug\netcoreapp2.2\easyPay.Services.dll
 C:\Projects\easyPayApp\easyPay.Services\bin\Debug\netcoreapp2.2\easyPay.Services.pdb

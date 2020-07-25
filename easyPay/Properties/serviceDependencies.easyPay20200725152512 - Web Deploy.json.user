@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2020-07-25T19:26:12.1897903Z"
+    }
+  },
+  "parameters": {
+    "resourceGroup": {
+      "Type": "resourceGroup",
+      "Value": "easyPaySolution"
+    },
+    "subscriptionId": {
+      "Type": "subscription",
+      "Value": "b087dc3f-73a7-4e71-baf5-84e7a4df9e0b"
+    }
+  }
+}
